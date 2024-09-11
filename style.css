@@ -1,0 +1,62 @@
+/* Custom Navbar Styles */
+.navbar {
+    padding: 15px 20px;
+}
+
+.nav-link {
+    margin-right: 15px;
+}
+
+.nav-link.btn {
+    margin-right: 0;
+}
+
+.navbar-brand img {
+    margin-right: 10px;
+}
+.carousel-item {
+    position: relative;
+}
+
+.carousel-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    z-index: 1;
+}
+
+.carousel-caption {
+    z-index: 2;
+    color: #fff; /* White text for better contrast */
+}
+
+.carousel-caption h5 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.carousel-caption p {
+    font-size: 1.2rem;
+}
+  /* 3D Watermark Image Styles */
+  .watermark {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1; /* Ensures it stays behind all content */
+    opacity: 0.1; /* Adjust transparency as needed */
+    pointer-events: none; /* Prevents interaction */
+    background: url('ak.jpg') center/contain no-repeat; /* Background image settings */
+}
+
+/* Page content should be on top of the watermark */
+.content-wrapper {
+    position: relative;
+    z-index: 1; /* Ensures content is above the watermark */
+}

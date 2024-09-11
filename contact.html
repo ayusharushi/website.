@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="download.png" alt="Logo" width="40" height="40" class="d-inline-block align-top">
+            EduLearn
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <!-- Courses Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="index.html" id="coursesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Courses
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="coursesDropdown">
+                        <a class="dropdown-item" href="web-devlopment.html">Web Development</a>
+                        <a class="dropdown-item" href="data-science.html">Data Science</a>
+                        <a class="dropdown-item" href="os.html">Operating System</a>
+                        <a class="dropdown-item" href="ai-ml.html">AI & Machine Learning</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btn btn-primary text-white" href="sign-up.html">Sign Up</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contact Us Section -->
+    <section class="container my-5">
+        <h1>Contact Us</h1>
+        <p>If you have any questions or need assistance, feel free to reach out to us using the contact details below:</p>
+
+        <!-- Owner's Image and Information -->
+        <div class="row my-4">
+            <div class="col-md-4 text-center">
+                <img src="ak.jpg" alt="Owner Image" class="img-fluid rounded-circle" width="200">
+            </div>
+            <div class="col-md-8">
+                <h2>Ayush kumar</h2>
+                <p><strong>Founder & CEO</strong></p>
+                <p>Ayush is the driving force behind EduLearn. With over 20 years of experience in education and technology, he is dedicated to making learning accessible and engaging for everyone.</p>
+            </div>
+        </div>
+
+        <h2>Contact Information</h2>
+        <ul>
+            <li><strong>Email:</strong> support@edulearn.com</li>
+            <li><strong>Phone:</strong> +1-800-555-1234</li>
+            <li><strong>Address:</strong> galgotias university , near by supertecnoidah , greater </li>
+        </ul>
+
+        <h2>Contact Form</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+    </section>
+<!-- Footer -->
+<footer class="bg-light text-center text-lg-start py-4 mt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-12">
+                <h5 class="text-uppercase">EduLearn</h5>
+                <p>Providing high-quality educational resources for students to excel in various fields of study. Explore our courses and notes to enhance your learning experience.</p>
+            </div>
+            <div class="col-lg-4 col-md-12">
+                <h5 class="text-uppercase">Quick Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="web-development.html">Web Development</a></li>
+                    <li><a href="data-science.html">Data Science</a></li>
+                    <li><a href="operating-system.html">Operating System</a></li>
+                    <li><a href="ai-ml.html">AI & Machine Learning</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-4 col-md-12">
+                <h5 class="text-uppercase">Stay Connected</h5>
+                <ul class="list-unstyled">
+                    <li><a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+                    <li><a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                    <li><a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+                </ul>
+                <h5 class="text-uppercase mt-4">Subscribe to our Newsletter</h5>
+                <form class="form-inline mt-2">
+                    <input class="form-control mr-2" type="email" placeholder="Your Email" aria-label="Email">
+                    <button class="btn btn-primary" type
+                    <button class="btn btn-primary" type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="text-center py-3">
+        <p>&copy; 2024 EduLearn. All rights reserved.</p>
+    </div>
+</footer>
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

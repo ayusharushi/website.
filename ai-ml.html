@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI & Machine Learning Notes</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="download.png" alt="Logo" width="40" height="40" class="d-inline-block align-top">
+            EduLearn
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <!-- Courses Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="coursesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Courses
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="coursesDropdown">
+                        <a class="dropdown-item" href="web-development.html">Web Development</a>
+                        <a class="dropdown-item" href="data-science.html">Data Science</a>
+                        <a class="dropdown-item" href="operating-system.html">Operating System</a>
+                        <a class="dropdown-item" href="ai-ml.html">AI & Machine Learning</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btn btn-primary text-white" href="sign-up.html">Sign Up</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- AI & Machine Learning Notes Section -->
+    <section class="container my-5">
+        <h1>AI & Machine Learning Notes</h1>
+
+        <h2>Introduction to AI and Machine Learning</h2>
+        <p>Artificial Intelligence (AI) refers to the simulation of human intelligence in machines that are designed to think and learn like humans. Machine Learning (ML) is a subset of AI that involves the use of algorithms and statistical models to enable computers to improve their performance on a task through experience.</p>
+
+        <h2>Types of Machine Learning</h2>
+        <ul>
+            <li><strong>Supervised Learning:</strong> The model is trained on labeled data, where the desired output is known. Examples include classification and regression tasks.</li>
+            <li><strong>Unsupervised Learning:</strong> The model is trained on unlabeled data and must find patterns and relationships in the data. Examples include clustering and dimensionality reduction.</li>
+            <li><strong>Reinforcement Learning:</strong> The model learns by interacting with its environment and receiving feedback in the form of rewards or penalties. Examples include game playing and robotics.</li>
+        </ul>
+
+        <h2>Key Concepts in Machine Learning</h2>
+        <h3>Features and Labels</h3>
+        <p>Features are the input variables used by the model to make predictions, while labels are the output variables the model aims to predict.</p>
+
+        <h3>Training and Testing</h3>
+        <p>Training involves fitting a model to a dataset, while testing evaluates the model's performance on unseen data.</p>
+
+        <h3>Overfitting and Underfitting</h3>
+        <p>Overfitting occurs when a model learns the training data too well, including its noise, while underfitting occurs when a model is too simple to capture the underlying patterns in the data.</p>
+
+        <h3>Cross-Validation</h3>
+        <p>A technique used to assess the performance of a model by splitting the data into multiple subsets and training/testing the model on different subsets.</p>
+
+        <h2>Popular Algorithms and Models</h2>
+        <ul>
+            <li><strong>Linear Regression:</strong> A regression model that predicts a continuous output based on the linear relationship between input features.</li>
+            <li><strong>Decision Trees:</strong> A model that makes decisions based on a series of questions about input features.</li>
+            <li><strong>Support Vector Machines (SVM):</strong> A classification model that finds the optimal hyperplane to separate classes in the feature space.</li>
+            <li><strong>Neural Networks:</strong> Models inspired by the human brain, consisting of interconnected nodes (neurons) that process data in layers.</li>
+            <li><strong>K-Nearest Neighbors (KNN):</strong> A classification or regression model that makes predictions based on the closest training examples in the feature space.</li>
+            <li><strong>Clustering Algorithms:</strong> Algorithms like K-Means and Hierarchical Clustering that group similar data points together.</li>
+        </ul>
+
+        <h2>Deep Learning</h2>
+        <p>Deep Learning is a subset of machine learning that uses neural networks with many layers (deep neural networks) to model complex patterns in large datasets. It is particularly effective in tasks such as image and speech recognition.</p>
+
+        <h2>Resources for Learning</h2>
+        <ul>
+            <li><a href="https://www.coursera.org/specializations/machine-learning-ai">Machine Learning Specialization (Coursera)</a></li>
+            <li><a href="https://www.edx.org/professional-certificate/harvardx-data-science">edX Data Science Professional Certificate</a></li>
+            <li><a href="https://www.kaggle.com/learn/overview">Kaggle Learn</a></li>
+            <li><a href="https://www.fast.ai/">Fast.ai Deep Learning Courses</a></li>
+            <li><a href="https://www.tensorflow.org/tutorials">TensorFlow Tutorials</a></li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-light text-center text-lg-start py-4 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-12">
+                    <h5 class="text-uppercase">EduLearn</h5>
+                    <p>Providing high-quality educational resources for students to excel in various fields of study. Explore our courses and notes to enhance your learning experience.</p>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <h5 class="text-uppercase">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="web-development.html">Web Development</a></li>
+                        <li><a href="data-science.html">Data Science</a></li>
+                        <li><a href="operating-system.html">Operating System</a></li>
+                        <li><a href="ai-ml.html">AI & Machine Learning</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <h5 class="text-uppercase">Stay Connected</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+                        <li><a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                        <li><a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                        <li><a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+                    </ul>
+                    <h5 class="text-uppercase mt-4">Subscribe to our Newsletter</h5>
+                    <form class="form-inline mt-2">
+                        <input class="form-control mr-2" type="email" placeholder="Your Email" aria-label="Email">
+                        <button class="btn btn-primary" type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="text-center py-3">
+            <p>&copy; 2024 EduLearn. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

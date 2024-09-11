@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operating System Notes</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="download.png" alt="Logo" width="40" height="40" class="d-inline-block align-top">
+            EduLearn
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <!-- Courses Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="coursesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Courses
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="coursesDropdown">
+                        <a class="dropdown-item" href="web-devlopment.html">Web Development</a>
+                        <a class="dropdown-item" href="data-science.html">Data Science</a>
+                        <a class="dropdown-item" href="os.html">Operating System</a>
+                        <a class="dropdown-item" href="ai-ml.html">AI & Machine Learning</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btn btn-primary text-white" href="sign-up.html">Sign Up</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Operating System Notes Section -->
+    <section class="container my-5">
+        <h1>Operating System Notes</h1>
+
+        <h2>Introduction to Operating Systems</h2>
+        <p>An operating system (OS) is system software that manages computer hardware, software resources, and provides common services for computer programs. It acts as an intermediary between users and the computer hardware.</p>
+
+        <h2>Key Functions of an Operating System</h2>
+        <ul>
+            <li><strong>Process Management:</strong> Handles the creation, scheduling, and termination of processes. Ensures efficient execution of processes.</li>
+            <li><strong>Memory Management:</strong> Manages the computer's memory, including RAM and cache. Allocates memory to processes and handles memory deallocation.</li>
+            <li><strong>File System Management:</strong> Manages files on the disk, including file creation, deletion, and access control.</li>
+            <li><strong>Device Management:</strong> Manages device communication via drivers and ensures that hardware devices are properly utilized.</li>
+            <li><strong>User Interface:</strong> Provides a user interface, which can be command-line (CLI) or graphical (GUI), allowing users to interact with the computer.</li>
+        </ul>
+
+        <h2>Types of Operating Systems</h2>
+        <ul>
+            <li><strong>Batch Operating Systems:</strong> Processes jobs in batches without user interaction. Examples include early mainframe systems.</li>
+            <li><strong>Time-Sharing Operating Systems:</strong> Allows multiple users to interact with the computer simultaneously. Examples include UNIX and Linux.</li>
+            <li><strong>Distributed Operating Systems:</strong> Manages a group of separate computers as a unified system. Examples include Google’s Android and iOS.</li>
+            <li><strong>Real-Time Operating Systems:</strong> Guarantees processing within a certain time constraint. Examples include embedded systems used in medical devices and automotive systems.</li>
+            <li><strong>Network Operating Systems:</strong> Manages network resources and enables communication between devices on a network. Examples include Windows Server and Linux distributions for servers.</li>
+        </ul>
+
+        <h2>Process Management</h2>
+        <p>Process management involves creating and managing processes. Each process has a process control block (PCB) that includes process ID, state, program counter, and other important information. Key concepts include process scheduling, context switching, and process synchronization.</p>
+
+        <h2>Memory Management</h2>
+        <p>Memory management involves managing the computer's memory, including allocation and deallocation of memory to various processes. Techniques include paging, segmentation, and virtual memory.</p>
+
+        <h2>File System</h2>
+        <p>The file system manages files and directories on storage devices. It handles file creation, deletion, and access control. Common file systems include FAT32, NTFS, and ext4.</p>
+
+        <h2>Device Management</h2>
+        <p>Device management includes managing hardware devices such as printers, disk drives, and network interfaces. It involves using device drivers to enable communication between the OS and hardware.</p>
+
+        <h2>Security and Protection</h2>
+        <p>Operating systems implement security measures to protect data and resources. This includes user authentication, access control, encryption, and auditing.</p>
+
+        <h2>Popular Operating Systems</h2>
+        <ul>
+            <li><strong>Windows:</strong> Developed by Microsoft, widely used in personal and business environments.</li>
+            <li><strong>Linux:</strong> An open-source OS with various distributions like Ubuntu, Fedora, and Debian. Popular for servers and development environments.</li>
+            <li><strong>macOS:</strong> Developed by Apple, used in Macintosh computers. Known for its user-friendly interface and integration with other Apple products.</li>
+            <li><strong>Android:</strong> A mobile OS developed by Google, widely used in smartphones and tablets.</li>
+            <li><strong>iOS:</strong> Developed by Apple, used in iPhones and iPads.</li>
+        </ul>
+
+        <h2>Resources for Learning</h2>
+        <ul>
+            <li><a href="https://www.coursera.org/learn/os-introduction">Introduction to Operating Systems (Coursera)</a></li>
+            <li><a href="https://www.udacity.com/course/operating-systems--ud923">Operating Systems (Udacity)</a></li>
+            <li><a href="https://www.edx.org/course/introduction-to-operating-systems">Introduction to Operating Systems (edX)</a></li>
+            <li><a href="https://www.geeksforgeeks.org/operating-systems/">GeeksforGeeks Operating Systems</a></li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-light text-center text-lg-start py-4 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-12">
+                    <h5 class="text-uppercase">EduLearn</h5>
+                    <p>Providing high-quality educational resources for students to excel in various fields of study. Explore our courses and notes to enhance your learning experience.</p>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <h5 class="text-uppercase">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="web-development.html">Web Development</a></li>
+                        <li><a href="data-science.html">Data Science</a></li>
+                        <li><a href="os.html">Operating System</a></li>
+                        <li><a href="ai-ml.html">AI & Machine Learning</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <h5 class="text-uppercase">Stay Connected</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+                        <li><a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                        <li><a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                        <li><a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+                    </ul>
+                    <h5 class="text-uppercase mt-4">Subscribe to our Newsletter</h5>
+                    <form class="form-inline mt-2">
+                        <input class="form-control mr-2" type="email" placeholder="Your Email" aria-label="Email">
+                        <button class="btn btn-primary" type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="text-center py-3">
+            <p>&copy; 2024 EduLearn. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
